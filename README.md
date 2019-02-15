@@ -1,5 +1,4 @@
-# portfolio
-my portfolio site
+# react-minimal-starter
 
 ## Usage
 

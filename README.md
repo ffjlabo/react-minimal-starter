@@ -4,6 +4,7 @@ React と Redux を利用するための環境
 
 ## ディレクトリ構成
 
+```
 ├── README.md
 ├── dist
 ├── node_modules
@@ -15,6 +16,7 @@ React と Redux を利用するための環境
 │   └── index.js
 ├── webpack.config.js
 └── yarn.lock
+```
 
 - `dist`: webpack でビルドしたあとのファイルを配置
 - `public`: 静的ファイルなどを配置
@@ -26,11 +28,11 @@ React と Redux を利用するための環境
 
 ### `yarn dev`
 
-`development`モードで webpack-dev-server を起動
+**development**モードで webpack-dev-server を起動
 
 ### `yarn prod`
 
-`production`モードで webpack-dev-server を起動
+**production**モードで webpack-dev-server を起動
 
 ### `yarn build`
 

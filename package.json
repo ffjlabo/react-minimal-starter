@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "webpack-dev-server --mode development --hot --inline --watch-content-base",
+    "dev": "webpack-dev-server --mode development --hot --inline",
+    "prod": "webpack-dev-server --mode production --hot --inline",
     "build": "webpack --mode production"
   },
   "dependencies": {

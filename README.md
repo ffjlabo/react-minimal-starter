@@ -15,16 +15,24 @@ React と Redux を利用するための環境
 │   ├── components
 │   └── index.js
 ├── webpack.config.js
+├── .env
 └── yarn.lock
 ```
 
 - `dist`: webpack でビルドしたあとのファイルを配置
 - `public`: 静的ファイルなどを配置
 - `src`: React のコンポーネントとかを配置
+- `.env`: webpack-dev-server に読み込ませる環境変数
 
 基本的に`public`、`src`配下のファイルをバンドルして `dist` に吐き出すようにしている
 
-## Usage
+## 事前準備
+
+### `touch .env`
+
+webpack-dev-server で環境変数を読み込めるようにしているため、.env ファイルを作成する必要あり
+
+## 使い方
 
 ### `yarn dev`
 

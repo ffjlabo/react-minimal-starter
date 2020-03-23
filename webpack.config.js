@@ -9,6 +9,11 @@ for (key in env) {
   env[key] = JSON.stringify(env[key]);
 }
 
+// .envファイルが存在しない場合
+if (env === undefined) {
+  env = {};
+}
+
 module.exports = {
   entry: path.join(__dirname, 'src', 'index.js'),
   output: {

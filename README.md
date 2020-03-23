@@ -28,9 +28,10 @@ React と Redux を利用するための環境
 
 ## 事前準備
 
-### `touch .env`
+### 任意 `touch .env`
 
-webpack-dev-server で環境変数を読み込めるようにしているため、.env ファイルを作成する必要あり
+webpack-dev-server で環境変数を読み込めるようにしている。
+必要な環境変数があれば適宜作成すること。
 
 ## 使い方
 
